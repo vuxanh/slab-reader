@@ -1,7 +1,7 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "functions": {
-    "api/test.php": {
+    "src/**/*": {
       "runtime": "vercel-deno@2.4.0"
     }
   }
